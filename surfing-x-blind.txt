@@ -1,0 +1,26 @@
+[Adblock Plus 3.13]
+! Title: Gerard Roche: Surfing X Blind
+! Expires: 1 day
+
+x.com##div[data-testid=sidebarColumn] div[aria-label=Trending] div div:has(div[aria-label="Timeline: Trending now"])
+x.com##div[data-testid=sidebarColumn] div[aria-label=Trending] div div:has(aside[aria-label="Who to follow"])
+x.com##div[data-testid=sidebarColumn] div[aria-label=Trending] div div:has(h2:has-text(Live on X))
+x.com##div[data-testid=sidebarColumn] div[aria-label=Trending] div div:has(nav[aria-label=Footer])
+x.com##div[data-testid=DMDrawerHeader]
+
+x.com##div button[data-testid=like] div div span
+x.com##div button[data-testid=unlike] div div span
+x.com##div button[data-testid=retweet] div div span
+x.com##div button[data-testid=unretweet] div div span
+x.com##div button[data-testid=reply] div div span
+x.com##div button[data-testid=bookmark]
+x.com##div button[aria-label="Share post"]
+x.com##div a:matches-attr(href="/\\/analytics/")
+
+x.com##div[data-testid="User-Name"] time
+x.com##div[data-testid="User-Name"] span:has-text("·")
+
+x.com##div a:matches-attr(href="/following/")
+x.com##div a:matches-attr(href="/verified_followers/")
+
+x.com##div[data-testid="HoverCard"]:has(span:has-text(Following))
