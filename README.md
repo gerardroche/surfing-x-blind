@@ -1,31 +1,33 @@
 # Surfing X Blind
 
-- No like counts
-- No retweet counts
-- No reply counts
-- No view counts
-- No post time
-- No following count
-- No follower count
-- No profile pop-up on hover
-- No sidebar trending panels
+uBlock Origin filters to hide some things in X.
 
-X post before
+- Hide like counts
+- Hide retweet counts
+- Hide reply counts
+- Hide view counts
+- Hide post time
+- Hide following count
+- Hide follower count
+- Hide profile pop-up on hover
+- Hide sidebar trending panels
 
-![X post before screenshot](x-post-before.jpg)
+Toggle the filters via the eye icon in the uBlock Origin UI.
 
-X post after
+## X post before and after
 
-![X post after screenshot](x-post-after.jpg)
+![X post after screenshot](x-post.gif)
 
-You can toggle these cosmetic filters on and off from uBlock Origin. Usually the uBlock Origin icon is in the browser toolbar, click it, the cosmetic filters are toggled via the eye icon.
+![X post before screenshot](x-post.jpg)
 
 ## Setup
 
-Navigate to your [uBlock Origin](https://github.com/gorhill/uBlock) *Filter lists*. Scroll down to *Import...* and add the following filter URL, then click Apply changes.
+Requires uBlock Origin or other Adblock Plus compatible blocker like [Brave Browser](https://brave.com/).
+
+Navigate to your [uBlock Origin](https://github.com/gorhill/uBlock) **Filter lists**, scroll to **Import...**, and add the filter URL below, and click **Apply changes**.
 
 ```
 https://raw.githubusercontent.com/gerardroche/surfing-x-blind/refs/heads/master/surfing-x-blind.txt
 ```
 
-Alternatively, manually copy the filters directly into your custom filters (the "My Filters" tab)
+Alternatively, manually copy the filters directly into your custom filters via the "My Filters" tab in uBlock Origin settings.
