@@ -1,16 +1,16 @@
 # Surfing X Blind
 
-uBlock Origin filters to hide some things in X.
+uBlock Origin filters to remove things like like counts, view counts, etc. when browsing X.
 
-- Hide like counts
-- Hide retweet counts
-- Hide reply counts
-- Hide view counts
-- Hide post time
-- Hide following count
-- Hide follower count
-- Hide profile pop-up on hover
-- Hide sidebar trending panels
+- Hides like counts
+- Hides retweet counts
+- Hides reply counts
+- Hides view counts
+- Hides post time
+- Hides following count
+- Hides follower count
+- Hides profile pop-up on hover
+- Hides sidebar trending panels
 
 Toggle the filters via the eye icon in the uBlock Origin UI.
 
