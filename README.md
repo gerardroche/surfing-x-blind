@@ -18,7 +18,7 @@ Toggle the filters via the eye icon in the uBlock Origin UI.
 
 ![X post after screenshot](x-post.gif)
 
-![X post before screenshot](x-post.jpg)
+![X post before screenshot](x-post.png)
 
 ## Setup
 
